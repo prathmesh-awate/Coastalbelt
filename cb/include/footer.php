@@ -10,6 +10,14 @@
  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <style>
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  footer{
+    margin-top: auto;
+  }
   .fakeimg {
     height: 200px;
     background: #aaa;
