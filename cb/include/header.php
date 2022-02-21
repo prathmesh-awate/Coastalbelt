@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'boilerplate.php';?>
 <nav class="navbar navbar-light navbar-expand-lg shadow-sm p-3 mb-5 bg-white rounded" style="background-color: #ffffff;">
             <div class="container-fluid">
                 <nav class="navbar navbar-light bg-light">
