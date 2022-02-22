@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap 5 Website Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
- 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  }
-  
-  .fa {
-  padding: 20px 1px;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: left;
+}
+
+.fa {
+  padding: 10px;
   font-size: 20px;
-  width: 50px;
-  height: 50px;
-  text-align: left;
+  width: 20px;
+  text-align: center;
   text-decoration: none;
-  margin: 0px 0px;
-  border-radius: 100%;
-  
+  margin: 20px 5px;
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -37,52 +29,38 @@
 }
 
 .fa-facebook {
- 
+  background: #3B5998;
   color: white;
 }
 
 .fa-twitter {
-
+  background: #55ACEE;
   color: white;
 }
-
-.fa-youtube {
- 
-  color: white;
-}
-
 .fa-instagram {
-
+  background:#125688;
   color: white;
 }
 
 .fa-pinterest {
- 
+  background: #cb2027;
   color: white;
 }
-
-}
-  
-  </style>
+</style>
 </head>
 <body>
-<div class="mt-5 p-4 bg-dark text-white text-LEFT">
-  <p><h2>Coastalbelt</h2></p>
-  <ul>
-  
-   <li>CONTACT NO:</li>
-   <li>ADDRESS:</li>
-  </ul> 
-  
-  
+<div class="footer">
+  <p>
+    <h1>COASTALBELT</h1>
+    <h2>Contact:</h2>
+    <a href="#"><h2>Address:</h2></a>
+  </p>
 
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-youtube"></a>
 <a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-pinterest"></a
-  
+<a href="#" class="fa fa-pinterest"></a>
 </div>
 
 </body>
