@@ -1,5 +1,4 @@
-<?php
-include "include/boilerplate.php";
+<?php include 'include/header.php';
 include "include/db.php";
 if(isset($_POST['submit'])){
       $fname = $_POST['fname'];
