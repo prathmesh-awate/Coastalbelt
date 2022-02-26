@@ -45,30 +45,33 @@ body {
 
 <!-- Sidebar -->
 <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
-<h3 class="w3-bar-item">Menu</h3>
-<a href="#" class="w3-bar-item w3-button">Link 1</a>
-<a href="#" class="w3-bar-item w3-button">Link 2</a>
-<a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <h3 class="w3-bar-item">Filters</h3>
+  <h4 class="w3-bar-item">Categories</h4>
+  <a href="#" class="w3-bar-item w3-button">Tote Bags</a>
+  <a href="#" class="w3-bar-item w3-button">School Bags</a>
+  <a href="#" class="w3-bar-item w3-button">Office Bags</a>
+  <a href="#" class="w3-bar-item w3-button">Laptop Bags</a>
+  <a href="#" class="w3-bar-item w3-button">Shirts</a>
+  <a href="#" class="w3-bar-item w3-button">Sweatshirts</a>
+  <a href="#" class="w3-bar-item w3-button">Tshirts</a>
+  <a href="#" class="w3-bar-item w3-button">Trousers</a>
+  <a href="#" class="w3-bar-item w3-button">Joggers</a>
+  <h4 class="w3-bar-item">Price</h4>
+  <label for="customRange2" class="form-label w3-bar-item"></label>
+  <input type="range" class="form-range w3-bar-item" min="0" max="5" id="customRange2">
+</div>
+<div class="row">
+  <div class="col-3">
+  </div>
+  <div class="col-9">
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/Blue-2-850x850.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Waterproof Bag</h5>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+  </div>
 </div>
 
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <h3>Card 1</h3>
-      <p><img src="" class="img-rounded" alt="product image"></p>
-      <p>Some text</p>
-      <button type="button" class="btn btn-danger">Add to cart</button>
-      <button type="button" class="btn btn-danger">Buy Now</button>
-    </div>
-  </div>
-  
-  <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-<?php include 'include/footer.php';?>
