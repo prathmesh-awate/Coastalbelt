@@ -1,18 +1,15 @@
 .carousel-inner img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     background-color: black;
     color: white;
     text-align: left;
- }
- 
+}
  .fa {
    padding: 10px;
    font-size: 20px;
@@ -44,4 +41,4 @@
  .fa-pinterest {
    background: #cb2027;
    color: white;
- }
+}

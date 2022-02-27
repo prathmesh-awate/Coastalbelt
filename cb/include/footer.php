@@ -13,6 +13,7 @@
     <a href="#"><h2>Address:</h2></a>
   </p>
 <!-- Add font awesome icons -->
+
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-instagram"></a>

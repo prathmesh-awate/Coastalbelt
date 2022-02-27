@@ -1,6 +1,4 @@
 
-
-
 <?php include 'include/header.php';?>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
