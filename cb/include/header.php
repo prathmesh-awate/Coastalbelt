@@ -9,6 +9,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">   
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+    <!--<link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet">-->
+    <!-- Product view slider -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.simpleLens.css">    
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="css/nouislider.css">
+    <!-- Theme color -->
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+    <!-- <link id="switcher" href="css/theme-color/bridge-theme.css" rel="stylesheet"> -->
+    <!-- Top Slider CSS -->
+    <link href="css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
+
+    <!-- Main style sheet -->
+    <link href="css/style.css" rel="stylesheet">    
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <title>Hello, world!</title>
   </head>
   <body>
@@ -45,9 +68,66 @@
                 </form>
               </div>
               </div>
+              
+              <!-- <div class="aa-cartbox">
+                <a class="aa-cart-link" href="#">
+                  <span class="fa fa-shopping-basket"></span>
+                  <span class="aa-cart-title">SHOPPING CART</span>
+                  <span class="aa-cart-notify">2</span>
+                </a>
+                <div class="aa-cartbox-summary">
+                  <ul>
+                    <li>
+                      <a class="aa-cartbox-img" href="#"><img src="img/woman-small-2.jpg" alt="img"></a>
+                      <div class="aa-cartbox-info">
+                        <h4><a href="#">Product Name</a></h4>
+                        <p>1 x $250</p>
+                      </div>
+                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                    </li>
+                    <li>
+                      <a class="aa-cartbox-img" href="#"><img src="img/woman-small-1.jpg" alt="img"></a>
+                      <div class="aa-cartbox-info">
+                        <h4><a href="#">Product Name</a></h4>
+                        <p>1 x $250</p>
+                      </div>
+                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                    </li>                    
+                    <li>
+                      <span class="aa-cartbox-total-title">
+                        Total
+                      </span>
+                      <span class="aa-cartbox-total-price">
+                        $500
+                      </span>
+                    </li>
+                  </ul>
+                  <a class="aa-cartbox-checkout aa-primary-btn" href="checkout.html">Checkout</a>
+                </div>
+              </div> -->
             </ul>   
           </div>
         </div>
       </nav>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>  
+  <!-- SmartMenus jQuery plugin -->
+  <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+  <!-- SmartMenus jQuery Bootstrap Addon -->
+  <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>  
+  <!-- To Slider JS -->
+  <script src="js/sequence.js"></script>
+  <script src="js/sequence-theme.modern-slide-in.js"></script>  
+  <!-- Product view slider -->
+  <script type="text/javascript" src="js/jquery.simpleGallery.js"></script>
+  <script type="text/javascript" src="js/jquery.simpleLens.js"></script>
+  <!-- slick slider -->
+  <script type="text/javascript" src="js/slick.js"></script>
+  <!-- Price picker slider -->
+  <script type="text/javascript" src="js/nouislider.js"></script>
+  <!-- Custom js -->
+  <script src="js/custom.js"></script> 
+
     </body>
 </html>

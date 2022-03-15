@@ -259,6 +259,6 @@ getProducts();
 });
 
 
- });
+});
 
 </script>
