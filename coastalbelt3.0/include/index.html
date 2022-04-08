@@ -3,6 +3,31 @@
 <html lang="en">
   <head>
     <style>
+        body{
+        padding: 50px;
+        }
+        h1{
+          margin-bottom: 10px;
+        }
+        .icon-input {
+            margin-bottom: 10px;
+            position: relative;
+            max-width: 300px;
+            &__text-field{
+              width: 100%;
+              padding: 5px 30px 5px 5px;
+            }
+            &__icon{
+                color: rgba(0,0,0,1);
+                position: absolute;
+                top: 50%;
+                right: -2rem;
+                transform: translateY(-50%);
+            }
+            &__text-field:focus + &__icon{
+              color: #FF8400;
+            }
+}
         .footer{
             position: fixed;
             padding: 5px 10px 0px 10px;
@@ -79,7 +104,11 @@
               <div class="nav-item col-12">
                 <form class="d-flex">
                     <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-danger col-2" type="submit">Search</button>
+                    <button class="btn btn-outline-danger col-1" type="submit">
+                      <i class="fa fa-search"></i>
+                    </button>
+                    
+                    </div>
                 </form>
               </div>
              </div>
